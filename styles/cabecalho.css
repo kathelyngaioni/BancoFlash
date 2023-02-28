@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+:root {
+  --cor-rosa-de-fundo: #f3e2e6;
+  --cor-rosa: #d63384;
+  --cor-rosa-botao: #fb2a81;
+  --cor-cabecalho-link: #000;
+  --fonte-cabecalho--link: 'Nunito', sans-serif;;
+}
+.cabecalho {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: var(--cor-rosa-de-fundo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo__Flash {
+  
+}
+.cabecalho__navegacao {
+  margin-left: 2rem;
+  margin-right: 12rem;
+}
+.cabecalho__navegacao__links {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: var(--cor-cabecalho-link);
+  font-weight: 700;
+  font-size: 16px;
+  font-family: var(--fonte-cabecalho--link);
+}
+.botao__transparente {
+  color: var(--cor-rosa-botao);
+  text-decoration: none;
+  border: 1px solid var(--cor-rosa-botao);
+  background-color: transparent;
+  padding: 12px 24px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+.botao__rosa__cabecalho {
+  color: white;
+  text-decoration: none;
+  border-radius: 16px;
+  padding: 12px 24px;
+  background-color: var(--cor-rosa-botao);
+  font-weight: 700;
+  font-size: 18px;
+  white-space: nowrap;
+}

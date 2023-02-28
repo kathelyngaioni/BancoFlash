@@ -1,0 +1,11 @@
+:root {
+  --cor-rosa-de-fundo: #f3e2e6;
+  --cor-rosa: #d63384;
+}
+
+.principal {
+  
+  background-color: var(--cor-rosa-de-fundo);
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
