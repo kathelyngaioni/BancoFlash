@@ -1,8 +1,12 @@
 .secundario {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 6rem 4rem 0rem 4rem;
-  gap: 3rem;
+  
+}
+
+.secundario__imagem {
+  margin-left: 13.5rem;
 }
 .secundario__texto {
   margin-top: 7.5rem;
