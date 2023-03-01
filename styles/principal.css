@@ -5,7 +5,7 @@
 }
 
 .principal {
-  padding: 4rem;
+  padding: 4rem 4rem 2.5rem 4rem;
   background-color: var(--cor-rosa-de-fundo);
   display: flex;
   justify-content: space-between;
